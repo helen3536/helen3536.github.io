@@ -1,5 +1,90 @@
-#top {background-color: #0DED56 ; padding: 20px; font family: georgia;}
-.intro1 { color: #72081B  ; font-weight: bold; font family: helvetica;}
-.intro2 { color: #2371A4  ; font-weight: bold; font family: serif;}
-.intro3 {color: coral; font weight : lighter; font family: fantasy;}
-#middle {background-color:darkorange ; padding: 20 px; font-family: monospace}
+#top {
+    background-color: lightyellow;
+    font family: verdana;}
+
+body {
+    background: #f5954f;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+#wrapper {
+    width: 930px;
+    margin: 0 auto;
+    height: auto;
+    background: transparent;
+    color: #6ec367;
+}
+
+#header {
+    width: 1500px;
+    height: 200px;
+    margin: 0 auto;
+    text-align: center;
+    background-image: url('banner3.jpg');
+    background-color: yellowgreen;
+    color: greenyellow;
+    text-align: center;
+    font-family: snell;
+}
+
+#kiri {
+    width: 600px;
+    background-color:#f5954f;
+    float: left;
+    text-align: left;
+    font-size:15px;
+    color: #2c221b;
+    font-family: monospace;
+    padding: 10px; border-width: thin;}
+
+
+#tengah {
+    width: 500px;
+    background-color:#f5954f;
+    float: left;
+    text-align: left;
+    color: #2c221b;
+    font-family: monospace;
+    font-size:15px;
+    padding: 3px; border-width: thin;}
+
+#kanan {
+    width: auto;
+    overflow: visible;
+    background-color: #f5954f;
+    text-align: left;
+    color: #830909;
+    font-family: monospace;
+    font-size: large
+    padding: 5px; border-width: thin;}
+
+#footer {
+    background-color: grey;
+    color: black;
+    clear: both;
+    text-align: center;
+    padding: 5px;
+}
+
+.intro1 {
+    color: rgba(210, 105, 30, 0.99);
+    font-weight: normal;
+    font family: helvetica;
+}
+
+.intro4 {
+    color: #802606;
+    font weight: normal;
+    font family: snell;
+}
+
+
+#middle {
+    background-color: darkorange;
+    padding: 20 px;
+    font-family: monospace
+}
