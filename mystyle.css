@@ -1,35 +1,35 @@
 #site {width:100%;
  height: 100%;
- margin:20px auto;
- border:1px solid #000;
+ margin:auto; background-color: #806f66;
+border-style: hidden;
  padding-top:5px;
- padding-bottom:5px;}
+ padding-bottom:5px; padding-left: 10px; padding-right: 10px}
 
-* {
+* {box-sizing: border-box;
     margin: 0px;
     padding: 0px;}
 
 #header {
-    width: auto;
-    height: 200px;
+    width: 100%;
+    height: auto;
     margin: 0 auto;
     text-align: center;
-    background-image: url('banner2.jpg');
+    background-image: url('banner8.png');
     background-color: #806f66 ;}
 
 #konten {
     width: auto;
-    height: auto;
-    margin: 5 auto;
+    height:100%;
+    margin: 0 auto;
     overflow: hidden;
+    min-height: 100%; padding-bottom: 60px;
 }
 
 #kiri {
     width: 20%;
     background-color: #806f66;
     float: left;
-    ;
-    border: 1px solid #000;
+    border-style:inherit;
     padding-bottom: 500px;
     margin-bottom: 500px;
 }
@@ -37,13 +37,11 @@
 #kiri main {
     margin: auto;
     display: : block;
-    height: 40px;
     background: #fa8445;
     font-size: 25px;
     font-family: fantasy;
     color: black;
     text-align: center;
-    border: 1px solid red;
 }
 
 ul {
@@ -51,7 +49,7 @@ ul {
     margin: 0;
     padding: 0;
     width: 200px;
-    background-color: #f1f1f1;
+    background-color: #765549;
     font-family: monospace;
     border: 1px solid #ccc;
 }
@@ -68,40 +66,41 @@ li a {
 }
 
 li a:hover {
-    background-color: #555;color:#fff;}
-li.active a{background:#4169e1;color:#fff;}
+    background-color: #555;color:#b77451;}
+li.active a{background:#4169e1;color:#a56f53;}
 li:last-child{border-bottom:none;}
 
 #tengah {
     width: 50%;
     background-color:#806f66;
-    float: left;
+    float: left;overflow-y: auto;
     text-align: left;
     color: #2c221b;
     font-family: monospace;
     font-size:15px;
-    padding: 3px; border-width: thin; padding-bottom: 500px;margin-bottom: 500px;}
+    padding: 3px; border-style: inherit; padding-bottom: 500px;margin-bottom: 500px;}
 
 #kanan {
-    width: auto;
-    overflow: visible;
+    width: auto;height: 100%;
+    overflow: auto;
     background-color: #806f66;
     text-align: left;
     color: #312323;
     font-family: monospace;
     font-size: 15px;
-    padding: 5px; border-width: thin; padding-bottom: 500px;margin-bottom: 500px;}
+    padding: 5px; border-style: inherit; padding-bottom: 500px;margin-bottom: 500px;}
 
 #footer {
-    background-color: grey;
-    color: black;
-    clear: both;
+    background-color: grey;background-image: url("banner44.jpg");
+    color: #fff;font-family: inherit; font-style: oblique;
+    clear: both; height: 50px;
     text-align: center;
-    padding: 5px;
+    width:100%; 
+    padding: 15px; position: fixed; bottom: 0px;
 }
 
 .intro1 {
-    color: #382828;
+    color: #f2cdcd;
     font-weight: normal;
     font-family: monospace;
     font-size: 30px;font-style: oblique;}
@@ -117,5 +116,4 @@ li:last-child{border-bottom:none;}
     font-family: fantasy; font-size: 20px;
 }
 
-.img-responsive {max-width: 100%; display:block; height: auto;
-}
+.img-responsive {max-width: 100%; display:block; height: auto;}
